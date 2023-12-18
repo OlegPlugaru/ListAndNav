@@ -13,6 +13,7 @@
 		DD259EB82B30C03200F7A900 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD259EB72B30C03200F7A900 /* Preview Assets.xcassets */; };
 		DD259EBF2B30C42C00F7A900 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD259EBE2B30C42C00F7A900 /* DetailView.swift */; };
 		DD259EC12B30C5BF00F7A900 /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD259EC02B30C5BF00F7A900 /* PopupView.swift */; };
+		DD259EC42B30C97500F7A900 /* DarkModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD259EC32B30C97500F7A900 /* DarkModeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		DD259EB72B30C03200F7A900 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DD259EBE2B30C42C00F7A900 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		DD259EC02B30C5BF00F7A900 /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		DD259EC32B30C97500F7A900 /* DarkModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,9 @@
 		DD259EA42B30C03100F7A900 = {
 			isa = PBXGroup;
 			children = (
+				DD259EC22B30C72300F7A900 /* DarkMode */,
+				DD259EB02B30C03200F7A900 /* ListAndNavApp.swift */,
+				DD259EB42B30C03200F7A900 /* Assets.xcassets */,
 				DD259EAF2B30C03200F7A900 /* ListAndNav */,
 				DD259EAE2B30C03200F7A900 /* Products */,
 			);
@@ -55,11 +60,9 @@
 		DD259EAF2B30C03200F7A900 /* ListAndNav */ = {
 			isa = PBXGroup;
 			children = (
-				DD259EB02B30C03200F7A900 /* ListAndNavApp.swift */,
 				DD259EBE2B30C42C00F7A900 /* DetailView.swift */,
 				DD259EC02B30C5BF00F7A900 /* PopupView.swift */,
 				DD259EB22B30C03200F7A900 /* ContentView.swift */,
-				DD259EB42B30C03200F7A900 /* Assets.xcassets */,
 				DD259EB62B30C03200F7A900 /* Preview Content */,
 			);
 			path = ListAndNav;
@@ -71,6 +74,14 @@
 				DD259EB72B30C03200F7A900 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD259EC22B30C72300F7A900 /* DarkMode */ = {
+			isa = PBXGroup;
+			children = (
+				DD259EC32B30C97500F7A900 /* DarkModeView.swift */,
+			);
+			path = DarkMode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD259EB32B30C03200F7A900 /* ContentView.swift in Sources */,
+				DD259EC42B30C97500F7A900 /* DarkModeView.swift in Sources */,
 				DD259EC12B30C5BF00F7A900 /* PopupView.swift in Sources */,
 				DD259EBF2B30C42C00F7A900 /* DetailView.swift in Sources */,
 				DD259EB12B30C03200F7A900 /* ListAndNavApp.swift in Sources */,
